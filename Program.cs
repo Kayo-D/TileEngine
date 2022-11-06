@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using static System.Console;
+
+UI ui = new UI();
+ui.Menu();
