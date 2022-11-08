@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cw94\\Desktop\\Projects\\TileEngine\\TileEngine.csproj",
+      "projectUniqueName": "C:\\Users\\cw94\\Desktop\\Skolarbeten\\TileEngine\\TileEngine.csproj",
       "projectName": "TileEngine",
-      "projectPath": "C:\\Users\\cw94\\Desktop\\Projects\\TileEngine\\TileEngine.csproj",
+      "projectPath": "C:\\Users\\cw94\\Desktop\\Skolarbeten\\TileEngine\\TileEngine.csproj",
       "packagesPath": "C:\\Users\\cw94\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cw94\\Desktop\\Projects\\TileEngine\\obj\\",
+      "outputPath": "C:\\Users\\cw94\\Desktop\\Skolarbeten\\TileEngine\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cw94\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
