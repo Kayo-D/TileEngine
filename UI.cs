@@ -15,7 +15,7 @@ class UI
             WriteLine("MENU");
             WriteLine("");
             WriteLine("1: Level 1");
-            WriteLine("2: Redbrand Hideout");
+            WriteLine("2: Level 2");
             WriteLine("3: Level 3");
             WriteLine("4: Exit");
             keyInput = ReadKey();
