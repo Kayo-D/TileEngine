@@ -82,20 +82,21 @@ class UI
             {
                 if (tileEngine.SelectTile(manager.levelData, i, j, manager.mapWidth) == new WallTile().ID)
                 {
-                    BackgroundColor = ConsoleColor.DarkRed;
-                    Write(" ");
+                    BackgroundColor = ConsoleColor.DarkGray;
+                    Write("  ");
                 }
                 if (tileEngine.SelectTile(manager.levelData, i, j, manager.mapWidth) == new FloorTile().ID)
                 {
                     if (tileEngine.currentPlayerPosY == i && tileEngine.currentPlayerPosX == j)
                     {
+                        Console.OutputEncoding = System.Text.Encoding.UTF8;
                         BackgroundColor = ConsoleColor.White;
-                        Write("X");
+                        Write("🚶");
                     }
                     else
                     {
                         BackgroundColor = ConsoleColor.White;
-                        Write(" ");
+                        Write("  ");
                     }
                 }
             }
